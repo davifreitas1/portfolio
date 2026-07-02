@@ -1,0 +1,1 @@
+o "ToAki" é uma plataforma digital para vendedores ambulantes da praia se conectarem com clientes. Meu papel nesse projeto foi estruturar todo o software que rege a geolocalização entre usuários-servidor-vendedor e montar toda a interface gráfica.

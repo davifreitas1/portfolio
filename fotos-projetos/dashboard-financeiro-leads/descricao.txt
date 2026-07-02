@@ -1,0 +1,1 @@
+este foi um dashboard para análise de dados de Leads de uma empresa, consistia em reunir dados sobre faturamento, leads perdidos e bem sucedidos, comparar com as metas da empresa e fornecer dados de alto valor sobre as vendas.

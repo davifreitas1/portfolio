@@ -1,0 +1,18 @@
+# Sobe o portfolio em modo desenvolvimento com um unico comando:
+#   docker compose up
+# Depois acesse http://localhost:5173
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-davi
+    ports:
+      - "5173:5173"
+    volumes:
+      # Espelha o codigo local dentro do container para ter hot-reload:
+      # editar um arquivo aqui atualiza o navegador na hora.
+      - .:/app
+      # Mantem o node_modules do container (evita conflito com o host).
+      - /app/node_modules
+    environment:
+      # Necessario para o hot-reload funcionar dentro do Docker no Windows.
+      - CHOKIDAR_USEPOLLING=true
