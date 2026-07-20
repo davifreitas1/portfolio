@@ -6,7 +6,7 @@
 // os pontos que exigem a sua informacao (links de LinkedIn, GitHub, etc.).
 // =============================================================================
 
-import fotoPerfil from '../assets/foto-perfil.png'
+import fotoPerfil from '../assets/foto-perfil.jpg'
 import toakiLogo from '../assets/projetos/toaki-logo.jpeg'
 import toakiTela1 from '../assets/projetos/toaki-tela1.jpeg'
 import toakiTela2 from '../assets/projetos/toaki-tela2.jpeg'
